@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="CSGO">
+      <UniqueIdentifier>{9ae7567f-8cd3-426e-9838-9c8a8ccd8b34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CSGO\DLLMain">
+      <UniqueIdentifier>{62926115-5c05-4551-8ce9-c22d85626169}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CSGO\Utilities">
+      <UniqueIdentifier>{8a241bce-7146-49b7-96db-134127862def}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CSGO\InterfaceManager">
+      <UniqueIdentifier>{63db4fcc-a75c-49f2-95d7-1b856a4cee03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CSGO\SDK">
+      <UniqueIdentifier>{926835f4-ef5e-4e46-a4c5-3022bee499dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CSGO\VFTHook">
+      <UniqueIdentifier>{7d4ba216-8e8d-41c4-a4ad-a667908e65dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CSGO\Drawing">
+      <UniqueIdentifier>{24c18248-f1fe-4dfd-bf6b-dc09b422ea7b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DLLMain.cpp">
+      <Filter>CSGO\DLLMain</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities.cpp">
+      <Filter>CSGO\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="VFTHook.cpp">
+      <Filter>CSGO\VFTHook</Filter>
+    </ClCompile>
+    <ClCompile Include="Drawing.cpp">
+      <Filter>CSGO\Drawing</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK.cpp">
+      <Filter>CSGO\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="InterfaceManager.cpp">
+      <Filter>CSGO\InterfaceManager</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Utilities.hpp">
+      <Filter>CSGO\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="InterfaceManager.hpp">
+      <Filter>CSGO\InterfaceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK.hpp">
+      <Filter>CSGO\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="VFTHook.hpp">
+      <Filter>CSGO\VFTHook</Filter>
+    </ClInclude>
+    <ClInclude Include="Drawing.hpp">
+      <Filter>CSGO\Drawing</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
