@@ -32,6 +32,8 @@ DWORD WINAPI Init( LPVOID lpThreadParameter )
 	Surface = InterfaceManager::Grab<ISurface>( "vguimatsurface.dll", "VGUI_Surface031" );
 	 
 	g_pPanelHook = std::make_unique<VFTHook>( ( void*** ) Panel );
+	g_pDrawing = std::make_unique<Drawing>( );
+	
 	oPaintTraverse = g_pPanelHook->Hook<tPaintTraverse>( 41, hkPaintTraverse );
 
 	return TRUE;
