@@ -1,7 +1,7 @@
 #include "Drawing.hpp"
 #include "InterfaceManager.hpp"
 
-std::unique_ptr<Drawing> g_pDrawing = std::make_unique<Drawing>( );
+std::unique_ptr<Drawing> g_pDrawing;
 
 Drawing::Drawing( )
 {
